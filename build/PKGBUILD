@@ -2,7 +2,7 @@
 
 pkgname=caelestia-shell-tiioxic-git
 _pkgbase=caelestia-shell
-pkgver=r1.0000000
+pkgver=r1094.92a71f2
 pkgrel=1
 pkgdesc="The desktop shell for the Caelestia Tiioxic dotfiles (fork)"
 arch=('x86_64')
