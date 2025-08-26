@@ -36,7 +36,7 @@ StyledRect {
         }
 
         Repeater {
-            model: ["Home", "Downloads", "Desktop", "Documents", "Music", "Pictures", "Videos"]
+            model: ["Acceuil", "Téléchargements", "Bureau", "Documents", "Musique", "Images", "Vidéos"]
 
             StyledRect {
                 id: place
@@ -74,19 +74,19 @@ StyledRect {
                     MaterialIcon {
                         text: {
                             const p = place.modelData;
-                            if (p === "Home")
+                            if (p === "Acceuil")
                                 return "home";
-                            if (p === "Downloads")
+                            if (p === "Téléchargement")
                                 return "file_download";
-                            if (p === "Desktop")
+                            if (p === "Bureau")
                                 return "desktop_windows";
                             if (p === "Documents")
                                 return "description";
-                            if (p === "Music")
+                            if (p === "Musique")
                                 return "music_note";
-                            if (p === "Pictures")
+                            if (p === "Images")
                                 return "image";
-                            if (p === "Videos")
+                            if (p === "Vidéos")
                                 return "video_library";
                             return "folder";
                         }
